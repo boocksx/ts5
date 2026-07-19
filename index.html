@@ -6,65 +6,87 @@
 
 <title>Explore Collection</title>
 
+<!-- Open Graph -->
+<meta property="og:type" content="website">
 <meta property="og:title" content="Explore Collection">
 <meta property="og:description" content="Discover exclusive content and updates">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://boocksx.github.io/REPOSITORY/">
-<meta property="og:image" content="https://i.postimg.cc/CKPVKwcy/Screenshot-3.png">
+<meta property="og:url" content="https://YOURDOMAIN.COM/">
+<meta property="og:image" content="https://i.postimg.cc/bv6xZzs4/Gemini-Generated-Image-1h2qyz1h2qyz1h2q.png">
 
+<!-- Twitter -->
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Explore Collection">
 <meta name="twitter:description" content="Discover exclusive content and updates">
-<meta name="twitter:image" content="https://i.postimg.cc/CKPVKwcy/Screenshot-3.png">
+<meta name="twitter:image" content="https://i.postimg.cc/bv6xZzs4/Gemini-Generated-Image-1h2qyz1h2qyz1h2q.png">
 
 <style>
-body{
+*{
     margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
     background:#111;
     color:#fff;
-    font-family:Arial,sans-serif;
+    font-family:Arial,Helvetica,sans-serif;
     display:flex;
     justify-content:center;
     align-items:center;
     height:100vh;
-    flex-direction:column;
+    text-align:center;
 }
-h2{
-    margin-bottom:10px;
+
+.container{
+    max-width:500px;
+    padding:20px;
 }
+
+h1{
+    margin-bottom:15px;
+}
+
 p{
     opacity:.8;
+    margin-bottom:25px;
+}
+
+a.button{
+    display:inline-block;
+    background:#229ED9;
+    color:#fff;
+    padding:15px 35px;
+    border-radius:10px;
+    text-decoration:none;
+    font-weight:bold;
+    transition:.2s;
+}
+
+a.button:hover{
+    opacity:.9;
 }
 </style>
-
-<script>
-window.onload = function(){
-
-    setTimeout(function(){
-
-        const ua = navigator.userAgent;
-
-        if(/Android/i.test(ua)){
-            window.location.replace("https://stroki.top/click?o=2&a=6549&sub_id1=x");
-        }
-        else if(/iPhone|iPad|iPod/i.test(ua)){
-            window.location.replace("https://stroki.top/click?o=2&a=6549&sub_id1=x");
-        }
-        else{
-            window.location.replace("https://69x.mom");
-        }
-
-    },1000);
-
-}
-</script>
-
 </head>
 
 <body>
 
-<h2>Loading...</h2>
-<p>Please wait while we redirect you.</p>
+<div class="container">
+    <h1>Opening Telegram...</h1>
+    <p>If Telegram doesn't open automatically, click the button below.</p>
+
+    <a class="button" href="https://t.me/YOUR_CHANNEL">
+        Open Telegram
+    </a>
+</div>
+
+<script>
+const tg = "https://t.me/YOUR_CHANNEL";
+
+// Переход через 700 мс
+setTimeout(() => {
+    window.location.replace(tg);
+}, 700);
+</script>
 
 </body>
 </html>
